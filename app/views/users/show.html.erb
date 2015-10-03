@@ -35,5 +35,15 @@
   <%= @user.website %>
 </p>
 
+<p>
+  <strong>Sales Force valid:</strong>
+  <%= @user.sf_valid? ? 'Yes' : 'No' %>
+</p>
+
+<p>
+  <strong>Has all attributes?</strong>
+  <%= @user.sf_has_all_attr_valid? ? 'Yes' : 'No' %>
+</p>
+
 <%= link_to 'Edit', edit_user_path(@user) %> |
 <%= link_to 'Back', users_path %>

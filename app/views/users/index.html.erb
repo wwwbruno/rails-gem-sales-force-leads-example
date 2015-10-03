@@ -6,12 +6,9 @@
   <thead>
     <tr>
       <th>Name</th>
-      <th>Last name</th>
       <th>Email</th>
-      <th>Company</th>
-      <th>Job title</th>
-      <th>Phone</th>
-      <th>Website</th>
+      <th>Sales Force valid</th>
+      <th>Has all attributes?</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -20,12 +17,9 @@
     <% @users.each do |user| %>
       <tr>
         <td><%= user.name %></td>
-        <td><%= user.last_name %></td>
         <td><%= user.email %></td>
-        <td><%= user.company %></td>
-        <td><%= user.job_title %></td>
-        <td><%= user.phone %></td>
-        <td><%= user.website %></td>
+        <td><%= user.sf_valid? ? 'Yes' : 'No' %></td>
+        <td><%= user.sf_has_all_attr_valid? ? 'Yes' : 'No' %></td>
         <td><%= link_to 'Show', user %></td>
         <td><%= link_to 'Edit', edit_user_path(user) %></td>
         <td><%= link_to 'Destroy', user, method: :delete, data: { confirm: 'Are you sure?' } %></td>
