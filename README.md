@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/wwwbruno/rails-gem-sales-force-leads-exemple.svg?branch=master)](https://travis-ci.org/wwwbruno/rails-gem-sales-force-leads-exemple)
+[![Build Status](https://travis-ci.org/wwwbruno/rails-gem-sales-force-leads-example.svg?branch=master)](https://travis-ci.org/wwwbruno/rails-gem-sales-force-leads-example)
 
 # rails basic real time
 
