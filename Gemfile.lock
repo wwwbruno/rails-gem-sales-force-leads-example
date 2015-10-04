@@ -1,5 +1,5 @@
 GIT
-  remote: https://wwwbruno@bitbucket.org/wwwbruno/sf-leads.git
+  remote: https://github.com/wwwbruno/ruby-gem-sales-force-leads.git
   revision: ad4d0854fd04f801dae45d1ccb6a4f7c7e4361f8
   specs:
     sf_leads (0.1.1)

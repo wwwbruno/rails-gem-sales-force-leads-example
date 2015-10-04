@@ -25,7 +25,7 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
-gem 'sf_leads', :git => 'https://wwwbruno@bitbucket.org/wwwbruno/sf-leads.git'
+gem 'sf_leads', :git => 'https://github.com/wwwbruno/ruby-gem-sales-force-leads.git'
 gem 'rails_12factor'
 
 group :development, :test do
