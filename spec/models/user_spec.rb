@@ -14,7 +14,7 @@ RSpec.describe User, type: :model do
 
   it "check basic user to be invalid" do
     # Arrange
-    basic_user.email = nil
+    basic_user.company = nil
     # Act
     # Assert
     expect(basic_user.sf_valid?).to be false

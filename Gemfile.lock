@@ -1,6 +1,6 @@
 GIT
   remote: https://wwwbruno@bitbucket.org/wwwbruno/sf-leads.git
-  revision: fcfc88bc8eacd098e1855f8fdc2c3c88666d03b2
+  revision: cdbe92bb412dea81989c7c2c115b60c4b8890aae
   specs:
     sf_leads (0.1.0)
       restforce

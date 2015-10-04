@@ -1,7 +1,7 @@
 FactoryGirl.define do
   factory :basic_user, :class => 'User' do
-    name "Bruno"
-    email "bruno@disvolvi.com"
+    last_name "Almeida"
+    company "Disvolvi"
   end
 
   factory :full_user, :class => 'User' do
